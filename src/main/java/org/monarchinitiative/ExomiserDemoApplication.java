@@ -9,7 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ExomiserDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExomiserDemoApplication.class, args);
+//		SpringApplication.run(ExomiserDemoApplication.class, args);
+		SpringApplication.run(ExomiserCLIController.class, args);
 	}
 
 }

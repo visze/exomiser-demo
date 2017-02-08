@@ -25,13 +25,13 @@ import java.util.List;
  * @author Jules Jacobsen <j.jacobsen@qmul.ac.uk>
  */
 @RestController
-public class ExomiserController {
+public class ExomiserWebController {
 
     private final Exomiser exomiser;
     private final ResultsWriterFactory resultsWriterFactory;
 
     @Autowired
-    public ExomiserController(Exomiser exomiser, ResultsWriterFactory resultsWriterFactory) {
+    public ExomiserWebController(Exomiser exomiser, ResultsWriterFactory resultsWriterFactory) {
         this.exomiser = exomiser;
         this.resultsWriterFactory = resultsWriterFactory;
     }
