@@ -14,12 +14,14 @@ import org.monarchinitiative.exomiser.core.prioritisers.HiPhiveOptions;
 import org.monarchinitiative.exomiser.core.prioritisers.PriorityType;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
+import org.springframework.stereotype.Component;
 
 import de.charite.compbio.jannovar.annotation.VariantEffect;
 
 /**
  * @author Jules Jacobsen <j.jacobsen@qmul.ac.uk>
  */
+@Component
 public class ExomiserCLIController implements ApplicationRunner {
 
 	private final Exomiser exomiser;
